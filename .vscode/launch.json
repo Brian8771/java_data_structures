@@ -1,0 +1,78 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "test_bbdc63cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch DifferenceInLinkedAndArrayList",
+            "request": "launch",
+            "mainClass": "DifferenceInLinkedAndArrayList",
+            "projectName": "test_bbdc63cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "test_bbdc63cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedLists",
+            "request": "launch",
+            "mainClass": "LinkedLists",
+            "projectName": "test_bbdc63cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch PriorityQueues",
+            "request": "launch",
+            "mainClass": "PriorityQueues",
+            "projectName": "test_bbdc63cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Queues",
+            "request": "launch",
+            "mainClass": "Queues",
+            "projectName": "test_bbdc63cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stacks",
+            "request": "launch",
+            "mainClass": "Stacks",
+            "projectName": "test_bbdc63cc"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch",
+            "console": "integratedTerminal",
+            "program": "${file}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "-u",
+                "bdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}
